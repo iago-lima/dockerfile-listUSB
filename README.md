@@ -3,6 +3,8 @@ This Dockerfile that should be used to build the container that installs the [li
 
 To build the dockerfile use: `docker build -t <image_name>:<version> .`
 
+Remember, for the build to work correctly the listusb-debian-package.deb file and the dockerfile must be in the same folder.
+
 To run the containers use: `docker run <image_name>:<version>`, the output in the bash for this command is somethin like this:
 
 8087:8000 (bus 1, device 2) path: 1<br />
